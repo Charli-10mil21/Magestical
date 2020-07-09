@@ -1,0 +1,332 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Georgia/*Arial, Helvetica, sans-serif*/;
+  margin: 0;
+  background-color: rgb(0,0,0);
+}
+.centro{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: rgb(220,220,220);
+
+/*colores de fondo*/   
+}
+.blanco{
+  width: 960px;
+  margin: 0px 20px;
+  background-color: rgb(250,250,250);
+}
+.negro{
+  background-color: rgb(37,37,37);
+  position: relative;
+}
+/*----------*/
+/*header*/
+.centrado{
+  width: 1200px;
+  margin: 0 auto;
+}
+.menu{
+  background-color: rgb(63,63,63);
+}
+.main-menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-menu ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.main-menu li{
+  float: left;
+}
+.main-menu a{
+  display: block;
+  font-weight: normal;
+  color: rgba(255,255,255,80%);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+.main-menu a:hover{
+  /*background-color: #f6f6f6;*/
+  color: rgba(255,153,0,80%);
+}
+#ultimo a{
+  margin: 20px 5px;
+  padding: 0px 140px 0px 10px;
+}
+.let a{
+  margin: 20px 5px;
+  padding: 0px 10px;
+  border-right: 2px solid rgba(255,255,255,80%);
+}
+
+.imagenes a{
+  padding:15px 5px;  
+}
+
+.imagenes a::hover{
+   color: rgba(255,153,0,80%);
+}
+
+.linea3 {
+  margin: 0px;
+  border: 3px solid rgb(63,63,63);
+
+}
+
+/*----------*/
+/*Nombre pagina*/
+
+.letra{
+  color: rgb(255,255,255);
+}
+.nombre{
+  font-size: 30px;
+  margin: 0px;
+  padding: 40px 20px;
+  float: left;
+}
+
+.nombre2{
+  margin: 0px;
+  padding: 58px 10px 20px 0px;
+ font-size: 9px;
+ float: left;
+}
+
+.nombre3{
+  padding: 50px 20px 20px 0px;
+  float: right;
+}
+.nombre3 input{
+  border: none;
+  box-sizing: border-box;
+  width: 210px;
+  height: 33px;
+  background-color: rgb(54,54,54);
+}
+
+.nombre3 button{
+  border: none;
+  font-size: 12px;
+  font-family: Georgia;
+  height: 33px;
+  width: 65px;
+  color: rgb(255,255,255);
+  background-color: rgb(234,140,0);
+}
+
+#Nombre::after{
+  content: "";
+    display: block;
+    clear: both;
+}
+/*-------*/
+
+.selector p{
+  color: rgba(37,37,37,80%); 
+  font-size: 10px;
+  margin: 20px 20px;
+  padding: 0px 15px;
+}
+.selector span{
+  color: rgb(234,140,0);
+}
+
+
+/*Parte Blanca */
+
+.letra2{
+  color: rgb(195,195,195);
+}
+.titulo{
+  margin: 0px;
+  padding: 40px 0px 10px 0px;
+  text-align: center;
+  font-size: 60px;
+}
+.titulo2{
+  font-family: Georgia;
+  margin: 10px 0px 40px 0px;
+  padding: 0px 60px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+.linea{
+  width: 90%;
+}
+
+/*texto */
+.cont{
+  position: relative;
+}
+.cont::after{
+  content: " ";
+  display: block;
+  clear: both;
+}
+.derecha{
+  width:  440px;
+  height: 360px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 0px; 
+}
+.derecha h3{
+  font-size: 18px;
+}.derecha p{
+  opacity: 0.5;
+}
+.derecha .comillas{
+    display: inline-table;
+    font-size: 16px;
+}
+.derecha p{
+  font-size: 13px;
+  text-align: justify;
+}
+.izquierda{
+  width:  460px;
+  height: 360px;
+  float: right;
+  margin-right:25px;
+  margin-left: 10px;
+}
+.izquierda p{
+  font-size: 13px;
+}
+.izquierda .per{
+  width: 300px;
+  float: left;
+}
+.izquierda img{
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 110px;
+  height: 110px;
+  float: left;
+}
+.izquierda p{
+  opacity: 0.5;
+}
+.izquierda_bajo{
+  width:  922px;
+  height: 281px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.izquierda_bajo p{
+  opacity: 0.5;
+}
+
+
+.colum1{
+  height: 240px;
+  width: 210px;
+  float: left;
+  margin-left: 10px;
+}
+.colum1 img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 210px;
+  height: 140px;
+}
+.colum1 a{
+  text-decoration: none;
+  color: rgb(234,140,0);
+}
+
+.ultimo{
+  margin-left: 25px;
+}
+.ultimo h3{
+  position: relative;
+  top: -100px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 10px; 
+    opacity: 0.5;
+
+    
+}
+
+/*inferior negro*/
+.inferior{
+  background-color: rgba(37,37,37,85%);
+  width: 1000px;
+  height: 270px;
+  position: relative;
+}
+
+.colum2{
+  color: rgba(255,255,255,40%);
+  width: 200px;
+  height:180px;
+  float: left;
+  margin-left: 25px;
+}
+.colum2 h3{
+  margin: 30px 0px;
+}
+.colum2 p{
+  font-size: 10px;
+  margin: 2px 0px;
+}
+.colum2 a{
+  font-size: 12px;
+   text-decoration: none;
+  color: rgb(234,140,0);
+}
+.linea2{
+ border: 1px solid rgba(255,255,255,40%); 
+}
+.colum2 .dere{
+  margin-top: 5px;
+  float: right;
+}
+.colum2 input{
+  margin-bottom: 9px;
+  border: none;
+  box-sizing: border-box;
+  width: 220px;
+  height: 33px;
+  background-color: rgb(54,54,54);
+}
+.colum2 button{
+  border: none;
+  background-color: rgb(54,54,54);
+  color: rgb(234,140,0);
+}
+.pie{
+  height: 60px;
+  width: 1000px;
+  background-color: rgb(0,0,0);
+  color: rgba(255,255,255,50%);
+}
+.pie p{
+  margin:0px;
+  padding: 20px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
